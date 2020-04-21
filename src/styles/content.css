@@ -1,0 +1,45 @@
+.animals h5,
+.employees h5,
+.locations h5,
+.customers h5 {
+  color: var(--black);
+  font-family: Comfortaa;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.animals h6,
+.employees h6,
+.locations h6,
+.customers h6 {
+  color: var(--black);
+  font-family: Comfortaa;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.animals p,
+.employees p,
+.locations p,
+.customers p {
+  color: var(--black);
+  margin: 0 0 0;
+  line-height: 1.5;
+}
+
+.animal,
+.employee,
+.location,
+.customer {
+  padding: 0.5rem 0.75rem;
+  background: var(--primary-lt);
+  border-radius: 3px;
+  border: 0.05rem solid hsla(0, 42%, 70%, 0.137);
+  background: linear-gradient(
+    180deg,
+    var(--white) 0%,
+    var(--white) 60%,
+    var(--primary-lt) 100%
+  );
+  box-shadow: 0px 2px 3px -1px hsla(0, 0%, 0%, 0.15);
+}
