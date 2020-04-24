@@ -1,45 +1,63 @@
 .animals h5,
 .employees h5,
 .locations h5,
-.customers h5 {
+.customers h5,
+.products h5 {
   color: var(--black);
-  font-family: Comfortaa;
+  font-family: var(--copy-font);
   font-weight: bold;
-  font-size: 0.75rem;
+  font-size: 1.2rem;
 }
 
 .animals h6,
 .employees h6,
 .locations h6,
-.customers h6 {
+.customers h6,
+.products h6 {
   color: var(--black);
-  font-family: Comfortaa;
+  font-family: var(--copy-font);
   font-weight: bold;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 .animals p,
 .employees p,
 .locations p,
-.customers p {
+.customers p,
+.products p {
   color: var(--black);
   margin: 0 0 0;
   line-height: 1.5;
 }
 
+.products p {
+  margin-left: 1.45rem;
+}
+
 .animal,
 .employee,
 .location,
-.customer {
+.customer,
+.product {
   padding: 0.5rem 0.75rem;
-  background: var(--primary-lt);
   border-radius: 3px;
   border: 0.05rem solid hsla(0, 42%, 70%, 0.137);
-  background: linear-gradient(
-    180deg,
-    var(--white) 0%,
-    var(--white) 60%,
-    var(--primary-lt) 100%
-  );
+  background: white;
   box-shadow: 0px 2px 3px -1px hsla(0, 0%, 0%, 0.15);
+}
+
+.animal h4,
+.employee h4,
+.location h4,
+.customer h4,
+.product h4 {
+  margin-bottom: 0rem;
+  color: var(--primary-dk);
+  font-family: var(--copy-font);
+  letter-spacing: -0.05ch;
+}
+
+/* WOOHOO! 😜 */
+.product h4::before {
+  content: '🍬 ';
 }

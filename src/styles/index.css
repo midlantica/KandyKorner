@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:wght@300;700|Patua+One');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=M+PLUS+Rounded+1c:wght@100;400;700;900&display=swap');
 
 @import './dh-common/_dh-main.css';
 @import './colors.css';
@@ -6,15 +6,21 @@
 @import './header-footer.css';
 @import './content.css';
 
+:root {
+  --header-font: 'Emilys Candy', cursive;
+  --copy-font: 'M PLUS Rounded 1c', 'Helvetica Neue', Arial, Helvetica,
+    sans-serif;
+}
+
 html {
-  font-size: 90%;
+  font-size: 17px;
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Comfortaa', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: var(--copy-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: hsl(0, 0%, 20%);
@@ -41,7 +47,7 @@ code {
 .box,
 .box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   grid-gap: 0.5rem;
   padding: 0;
   margin-bottom: 1.5rem;

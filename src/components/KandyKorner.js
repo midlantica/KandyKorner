@@ -11,15 +11,15 @@ export default () => (
     </header>
 
     <div className='container'>
-      <h4>Locations</h4>
-      <LocationProvider>
-        <LocationList />
-      </LocationProvider>
-
-      <h4>Products</h4>
+      <h2>Products</h2>
       <ProductProvider>
         <ProductList />
       </ProductProvider>
+
+      <h2>Locations</h2>
+      <LocationProvider>
+        <LocationList />
+      </LocationProvider>
     </div>
 
     <footer></footer>

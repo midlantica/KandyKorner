@@ -8,13 +8,13 @@ export const ProductProvider = (props) => {
   const [products, setProducts] = useState([])
 
   const getProducts = () => {
-    return fetch('http://localhost:8088/products')
+    return fetch('http://localhost:8088/productTypes')
       .then((res) => res.json())
       .then(setProducts)
   }
 
   const addProduct = (products) => {
-    return fetch('http://localhost:8088/products', {
+    return fetch('http://localhost:8088/productTypes', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
