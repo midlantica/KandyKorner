@@ -27,7 +27,15 @@
 
 /* WOOHOO! 😜 */
 .product h4::before {
-  content: '🍬 ';
+  content: '\1F36C  ';
+}
+
+.employee h4::before {
+  content: '\1F464  ';
+}
+
+.location h4::before {
+  content: '\1F5FA  ';
 }
 
 .animals p,
