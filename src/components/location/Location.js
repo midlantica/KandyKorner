@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default ({ location }) => (
-  <section className='location'>
+  <section className='box location'>
     <h4>{location.name}</h4>
     <p>{location.address}</p>
     <p>Square Feet: {location.squareFeet}</p>

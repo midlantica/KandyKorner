@@ -6,7 +6,7 @@ export default () => {
   const { products } = useContext(ProductContext)
 
   return (
-    <div className='box products'>
+    <div className='baseGrid products'>
       {products.map((prods) => (
         <Product key={prods.id} product={prods} />
       ))}
