@@ -42,10 +42,7 @@ code {
     monospace;
 }
 
-.box,
-.box,
-.box,
-.box {
+.baseGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   grid-gap: 0.5rem;
@@ -53,9 +50,6 @@ code {
   margin-bottom: 1.5rem;
 }
 
-.box:last-of-type,
-.box:last-of-type,
-.box:last-of-type,
-.box:last-of-type {
+.baseGrid:last-of-type {
   margin-bottom: 0;
 }
