@@ -1,8 +1,8 @@
 :root {
   --white: white;
   --black: hsl(0, 100%, 6%);
-  --primary: hsl(295, 100%, 88%);
-  --primary-dk: hsl(295, 100%, 50%);
-  --primary-dkr: hsl(295, 100%, 25%);
-  --primary-lt: hsl(295, 100%, 97%);
+  --primary: var(--red600);
+  --primary-dk: var(--red900);
+  --primary-dkr: hsl(0, 75%, 30%);
+  --primary-lt: var(--red50);
 }

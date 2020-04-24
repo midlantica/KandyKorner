@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:wght@300;700|Patua+One');
 
+@import './dh-common/_dh-main.css';
 @import './colors.css';
 @import './typography.css';
 @import './header-footer.css';
@@ -33,13 +34,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-hr {
-  outline: none;
-  border: 0.25px solid hsla(0, 0%, 0%, 0.1);
-  box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.5);
-  margin-bottom: 1rem;
 }
 
 .box,
